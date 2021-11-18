@@ -14,8 +14,23 @@ html {
   color: white;
 }
 
-.bg {
+.bgg {
   background-image: url("./dc.png");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bg {
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -77,6 +92,28 @@ html {
 }
 
 .divbar-2 a img {
-  width: 30%;
+  width: 60%;
+}
+
+@media (max-width: 800px) {
+  .bg {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .divbar-1 {
+    display: none;
+  }
+  .divbar-2 {
+    width: 100%;
+  }
+  .divbar-2 a img {
+    width: 40%;
+  }
+}
+
+@media (max-width: 400px) {
+  .divbar-2 h2 {
+    font-size: 1rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
