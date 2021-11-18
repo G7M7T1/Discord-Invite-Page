@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=ZCOOL+XiaoWei&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  color: white;
+}
+
+.bg {
+  background-image: url("./dc.png");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.divbar-1 {
+  width: 310px;
+  height: 100%;
+}
+
+.divbar-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: calc(100% - 310px);
+}
+
+.divbar-2 .Chinese {
+  font-family: 'ZCOOL XiaoWei', serif;
+}
+
+.divbar-2 h1 {
+  color: #5C71B9;
+  margin: 3rem 0;
+}
+
+.divbar-2 h2 {
+  margin: 0.5rem;
+}
+
+.divbar-2 a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.divbar-2 a img {
+  width: 30%;
+}
+/*# sourceMappingURL=style.css.map */

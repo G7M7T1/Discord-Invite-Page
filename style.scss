@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=ZCOOL+XiaoWei&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    color: white;
+}
+
+.bg {
+    background-image: url("./dc.png");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.divbar-1 {
+    width: 310px;
+    height: 100%;
+}
+
+.divbar-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: calc(100% - 310px);
+
+    .Chinese {
+        font-family: 'ZCOOL XiaoWei', serif;
+    }
+
+    h1 {
+        color: #5C71B9;
+        margin: 3rem 0;
+    }
+
+    h2 {
+        margin: 0.5rem;
+    }
+
+    a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+
+        img {
+            width: 30%;
+        }
+    }
+}
